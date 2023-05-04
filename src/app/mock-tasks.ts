@@ -1,0 +1,52 @@
+import { Task } from './Task';
+
+export const TASKS: Task[] = [
+  {
+    id: 1,
+    text: 'Buy groceries',
+    day: '2023-05-04 16:00:00',
+    reminder: true,
+  },
+  {
+    id: 2,
+    text: 'Do laundry',
+    day: '2023-05-05 12:00:00',
+    reminder: false,
+  },
+  {
+    id: 3,
+    text: 'Finish project',
+    day: '2023-05-06 10:30:00',
+    reminder: true,
+  },
+  {
+    id: 4,
+    text: 'Call dentist',
+    day: '2023-05-07 15:00:00',
+    reminder: false,
+  },
+  {
+    id: 5,
+    text: 'Write blog post',
+    day: '2023-05-08 09:00:00',
+    reminder: true,
+  },
+  {
+    id: 6,
+    text: 'Take dog to vet',
+    day: '2023-05-09 14:00:00',
+    reminder: true,
+  },
+  {
+    id: 7,
+    text: 'Attend meeting',
+    day: '2023-05-10 11:00:00',
+    reminder: true,
+  },
+  {
+    id: 8,
+    text: 'Buy birthday gift',
+    day: '2023-05-11 16:30:00',
+    reminder: false,
+  },
+];
